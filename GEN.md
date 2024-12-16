@@ -1,1 +1,0 @@
-# PTIK_TUBES_NOVEL
