@@ -1,0 +1,28 @@
+//1
+<body>
+ <table (bisa dikasih border" border = n(jumlah border yang diinginkan ")>
+  <thead ('t' 'head')>
+   <tr ('t' 'r')>
+    <td ('t' 'd'>"berikan isi"</td>
+   </tr>
+  </thead>
+  <tbody ('t' 'body')>
+   <tr>
+    <td>"berikan isi"</td>
+   </tr>
+  </tbody>
+ </table>
+</body>
+
+//2
+<input /> digunakan supaya orang dapat menginput kedalamnya dengan menggunakan "type = ..."
+
+//3
+untuk elemen html yg lain bisa dicari di html element w3school
+
+//4
+penggunaan <div> dalam body menunjukkan banyak atau jumlah bagian yg akan dipakai dalam pembuatan web atau konten
+
+//5
+<head>, <div>, <body> merupakan elemen html, sedangkan jika di dalam elemen tersebut terdapat hal yg lain seperti <div class = "> maka itu disebut atribut
+
