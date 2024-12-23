@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NOVELON</title>
+    <link rel="stylesheet" href="saran.css">
+</head>
+<body>
+    <!-- navigasi -->
+    <nav class="navbar">
+        <div class="novel">
+            <div class="logo"><a href="">NOVELON</a></div>
+            <div class="menu">
+                <ul>
+                    <li><a href="Bantuan">Bantuan</a></li>
+                </ul>
+            </div>
+            <div class="bahasa">
+                <select id="bahasa" name="bahasa" required>
+                    <option value="" disabled selected>Bahasa</option>
+                    <option value="Indonesia">Indonesia</option>
+                    <option value="English">English</option>
+                    <option value="Japanese">Japanese</option>
+                    <option value="Korean">Korean</option>
+                </select>
+            </div>
+        </div>
+    </nav>
+
+    <!-- formulir pengaduan -->
+    <div class="container">
+        <h1>Form Pengaduan</h1>
+        <form action="#" method="post">
+            <label for="name">Nama Pelapor:</label>
+            <input type="text" id="name" name="name" placeholder="Masukkan nama Anda" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Masukkan email Anda" required>
+
+            <label for="phone">Nomor Telepon:</label>
+            <input type="tel" id="phone" name="phone" placeholder="Masukkan nomor telepon Anda" required>
+
+            <label for="kategori">Kategori Pengaduan:</label>
+            <select id="kategori" name="kategori" required>
+                <option value="" disabled selected>Pilih kategori</option>
+                <option value="pelayanan">Pelayanan</option>
+                <option value="teknis">Teknis</option>
+                <option value="keamanan">Keamanan</option>
+                <option value="lainnya">Lainnya</option>
+            </select>
+
+            <label for="deskripsi">Deskripsi Pengaduan:</label>
+            <textarea id="deskripsi" name="deskripsi" placeholder="Tuliskan Pengaduan Anda secara detail" required></textarea>
+            <hr>
+            <p class="prgf">Situs ini dilindungi oleh Kelompok 8 dan juga menerapkan Kebijakan Privasi serta Persyaratan Layanan Google.</p>
+            <p class="prgf1">Informasi yang Anda sampaikan akan kami perlakukan sesuai dengan Kebijakan Privasi dan jika diperlukan kami akan memberikan informasi tersebut kepada perusahaan afiliasi grup GenNaRi/NOVELON agar dapat dilakukan penanganan yang tepat.
+               Jika Anda setuju dengan pernyataan di atas, silakan kirimkan pertanyaan Anda.</p>
+            <p class="prgf2">Anda tidak perlu khawatir karena kami akan mengecek pertanyaan Anda dan memberikan jawaban secepatnya.</p>
+            <p class="prgf3">Jika Anda mengirimkan pengaduan melalui aplikasi INSTAGRAM atau layanan terkait, maupun melalui Form Pengaduan dalam keadaan login dengan akun INSTAGRAM, pemberitahuan juga akan dikirimkan melalui pesan obrolan dari akun resmi Service Messages.
+            </p>
+            <button type="submit">Kirim Pengaduan</button>
+        </form>
+    </div>
+</body>
+</html>
