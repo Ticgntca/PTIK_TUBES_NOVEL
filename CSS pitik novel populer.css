@@ -88,14 +88,38 @@ a.tbl-biru {
     color: #ffffff;
 }
 
-.list {
-    margin-top: 10%;
-    margin-left: 10%;
+/* card novel */
+.card-container {
+    display: flex;
+    margin-top: 100px;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 }
-
-.list-1 {
-    margin-top: 2%;
-    margin-left: 10%;
-    color: #f8f8f8;
-    font-size: 30px;
+.card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 200px;
+    margin: 10px;
+}
+.card img {
+    width: 200px;
+    height: 250px;
+    object-fit: cover;
+}
+.card-body {
+    padding: 15px;
+}
+.card-title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #000000;
+    margin: 0;
+}
+.card-text {
+    font-size: 14px;
+    color: #4b4b4b;
+    margin: 10px 0;
 }
